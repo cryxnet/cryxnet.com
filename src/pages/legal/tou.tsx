@@ -291,10 +291,7 @@ export default function TermsOfUse() {
         <Typography variant="body1">
           We care about data privacy and security. Please review our Privacy
           Policy:{' '}
-          <Link
-            style={{ color: 'darkblue' }}
-            href="https:/cryxnet.com/legal/privacy"
-          >
+          <Link style={{ color: 'darkblue' }} href="/legal/privacy">
             https:/cryxnet.com/legal/privacy
           </Link>
           . By using the Site, you agree to be bound by our Privacy Policy,
