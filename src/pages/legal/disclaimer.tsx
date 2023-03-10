@@ -15,7 +15,7 @@ export default function TermsOfUse() {
     >
       <Typography variant="h1">Disclaimer</Typography>
       <Box sx={{ marginTop: 5 }}>
-        <Typography variant="p">
+        <Typography variant="body1">
           The information provided on this website is for educational and
           informational purposes only. The content presented here may include
           information about hacking and other cybersecurity-related topics that

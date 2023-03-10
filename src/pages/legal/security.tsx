@@ -15,7 +15,7 @@ export default function TermsOfUse() {
       <Typography variant="h1">Security</Typography>
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">Introduction</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           This page is dedicated to providing a clear and transparent way for
           users to report any security vulnerabilities or issues they may find
           on our website. We take security seriously and appreciate any reports
@@ -24,7 +24,7 @@ export default function TermsOfUse() {
       </Box>
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">Reporting a Security Issue</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           If you believe you have found a security vulnerability on our website,
           please report it to us as soon as possible by emailing us at
           <a href="mailto:cryxnet@proton.me"> cryxnet@proton.me</a>. Please
@@ -48,7 +48,7 @@ export default function TermsOfUse() {
       </Box>
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">Responsible Disclosure</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           We encourage responsible disclosure of any security vulnerabilities or
           issues. As such, we ask that you do not publicly disclose any
           vulnerabilities or issues until we have had a reasonable amount of
@@ -60,7 +60,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">Conclusion</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           We take the security of our website and our users' data seriously. We
           appreciate the efforts of the security community to help us identify
           and address any potential security issues. Thank you for helping us

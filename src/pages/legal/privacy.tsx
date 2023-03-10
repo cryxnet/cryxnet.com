@@ -15,7 +15,7 @@ export default function Privacy() {
     >
       <Typography variant="h1">Privacy Policy</Typography>
       <Box sx={{ marginTop: 5 }}>
-        <Typography variant="p">
+        <Typography variant="body1">
           This privacy policy sets out how cryxnet.com ("i", "we" or "us") uses
           and protects any information that you give us when you use this
           website/application. We are committed to ensuring that your privacy is

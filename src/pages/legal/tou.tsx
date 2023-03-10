@@ -16,7 +16,7 @@ export default function TermsOfUse() {
       <Typography variant="h1">Terms of use</Typography>
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">1. AGREEMENT TO TERMS</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           These Terms of Use constitute a legally binding agreement made between
           you, whether personally or on behalf of an entity ("you") and
           ("CRYXNET.COM" "I" "we" "us" or "our"), concerning your access to and
@@ -63,7 +63,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">2. INTELLECTUAL PROPERTY RIGHTS</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           Unless otherwise indicated, the Site is our proprietary property and
           all source code, databases, functionality, software, website designs,
           audio, video, text, photographs and graphics on the Site
@@ -90,7 +90,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">3. USER REPRESENTATIONS</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           By using the Site, you represent and warrant that: (1) you have the
           legal capacity and you agree to comply with these Terms of Use; (2)
           you are not under the age of 13: (3) you are not a minor in the
@@ -108,7 +108,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">4. PROHIBITED ACTIVITIES</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           You may not access or use the Site for any purpose other than that for
           which we make the Site available. The Site may not be used in
           connection with any commercial endeavors except those that are
@@ -180,7 +180,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">5. USER GENERATED CONTRIBUTIONS</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           The Site does not offer users to submit or post content. We may
           provide you with the opportunity to create, submit, post, display,
           transmit, perform, publish, distribute, or broadcast content and
@@ -232,7 +232,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">6. THIRD-PARTY WEBSITE AND CONTENT</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           The Site may contain (or you may be sent via the Site) links to other
           websites ("Third-Party Websites") as well as articles, photographs,
           text, graphics, pictures, designs music, sound, video, information,
@@ -269,7 +269,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">7. SITE MANAGEMENT</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           We reserve the right, but not the obligation, to: (1) monitor the Site
           for violations of these Terms of Use; (2) take appropriate legal
           action against anyone who, in our sole discretion, violates the law or
@@ -288,7 +288,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">8. PRIVACY POLICY</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           We care about data privacy and security. Please review our Privacy
           Policy:{' '}
           <Link
@@ -316,7 +316,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">9. TERM AND TERMINATION </Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           These Terms of Use shall remain in full force and effect while you use
           the Site. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE.
           WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR
@@ -339,7 +339,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">10. GOVERNING LAW</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           These conditions are governed by and interpreted following the laws of
           Switzerland, and the use of the United Nations Convention of Contracts
           for the International Sale of Goods is expressly excluded. If your
@@ -355,7 +355,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">11. CORRECTIONS</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           There may be information on the Site that contains typographical
           errors, inaccuracies, or omissions, including descriptions, pricing,
           availability, and various other information. We reserve the right to
@@ -366,7 +366,7 @@ export default function TermsOfUse() {
 
       <Box sx={{ marginTop: 5 }}>
         <Typography variant="h3">12. LIMITATIONS OF LIABILITY</Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE
           TO YOU OR ANY THIRD PARTY FOR ANY DIRECT. INDIRECT. CONSEQUENTIAL
           EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST
@@ -387,7 +387,7 @@ export default function TermsOfUse() {
         <Typography variant="h3">
           13. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
         </Typography>
-        <Typography variant="p">
+        <Typography variant="body1">
           Visiting the Site, sending us emails, and completing online forms
           constitute electronic communications. You consent to receive
           electronic communications, and you agree that all agreements, notices,
