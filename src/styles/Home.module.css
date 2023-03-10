@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap");
+
+.aboutmeContainer {
+  padding: 0 2rem;
+  font-family: "Ubuntu";
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.aboutme {
+  margin-bottom: 50vh;
+}
+
+.aboutme h1 {
+  font-size: 10vmin;
+  line-height: 1.1;
+  max-inline-size: 15ch;
+  margin: auto;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Comfortaa", cursive;
+}
+
+.aboutme hr {
+  width: 50px;
+  border: none;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.25);
+}
+.aboutme .aboutmeContainer {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 2rem;
+
+  transition: all 0.3s;
+}
+.aboutme .aboutmeContainer p {
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  word-spacing: 2px;
+  font-size: 24px;
+}
+
+.aboutme .aboutmeContainer p:first-child::first-letter {
+  color: #ca3631;
+  font-weight: bold;
+  font-size: 70px;
+  float: left;
+  line-height: 60px;
+  padding-right: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutme .aboutmeContainer {
+    width: 80%;
+    padding: 1rem;
+  }
+}
+
+.companies {
+  margin-bottom: 50vh;
+}
+
+.cryxnetLogo {
+  background: #000;
+  height: 100vh;
+  width: 300vh;
+}
+
+.cryxnetLogo h1 {
+  font-family: "Ubuntu Condensed", sans-serif;
+
+  font-size: 15vw;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+  letter-spacing: 8px;
+  font-weight: 900;
+  /*Create overlap*/
+
+  margin: 0;
+  line-height: 0;
+  /*Animation*/
+
+  animation: glitch1 2.5s infinite;
+}
+
+.cryxnetLogo h1:nth-child(2) {
+  color: #001aff;
+  animation: glitch2 2.5s infinite;
+}
+
+.cryxnetLogo h1:nth-child(3) {
+  color: #ff0000;
+  animation: glitch3 2.5s infinite;
+}
+
+@keyframes glitch1 {
+  0% {
+    transform: none;
+    opacity: 1;
+  }
+  7% {
+    transform: skew(-0.5deg, -0.9deg);
+    opacity: 0.75;
+  }
+  10% {
+    transform: none;
+    opacity: 1;
+  }
+  27% {
+    transform: none;
+    opacity: 1;
+  }
+  30% {
+    transform: skew(0.8deg, -1.1deg);
+    opacity: 0.75;
+  }
+  35% {
+    transform: none;
+    opacity: 1;
+  }
+  52% {
+    transform: none;
+    opacity: 1;
+  }
+  55% {
+    transform: skew(-1deg, 3deg);
+    opacity: 0.75;
+  }
+  50% {
+    transform: none;
+    opacity: 1;
+  }
+  72% {
+    transform: none;
+    opacity: 1;
+  }
+  75% {
+    transform: skew(0.4deg, 1deg);
+    opacity: 0.75;
+  }
+  80% {
+    transform: none;
+    opacity: 1;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes glitch2 {
+  0% {
+    transform: none;
+    opacity: 0.25;
+  }
+  7% {
+    transform: translate(-5px, -3px);
+    opacity: 0.5;
+  }
+  10% {
+    transform: none;
+    opacity: 0.25;
+  }
+  27% {
+    transform: none;
+    opacity: 0.25;
+  }
+  30% {
+    transform: translate(-10px, -9px);
+    opacity: 0.5;
+  }
+  35% {
+    transform: none;
+    opacity: 0.25;
+  }
+  52% {
+    transform: none;
+    opacity: 0.25;
+  }
+  55% {
+    transform: translate(-13px, -1px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: none;
+    opacity: 0.25;
+  }
+  72% {
+    transform: none;
+    opacity: 0.25;
+  }
+  75% {
+    transform: translate(-2px, -6px);
+    opacity: 0.5;
+  }
+  80% {
+    transform: none;
+    opacity: 0.25;
+  }
+  100% {
+    transform: none;
+    opacity: 0.25;
+  }
+}
+
+@keyframes glitch3 {
+  0% {
+    transform: none;
+    opacity: 0.25;
+  }
+  7% {
+    transform: translate(2px, 3px);
+    opacity: 0.5;
+  }
+  10% {
+    transform: none;
+    opacity: 0.25;
+  }
+  27% {
+    transform: none;
+    opacity: 0.25;
+  }
+  30% {
+    transform: translate(5px, 2px);
+    opacity: 0.5;
+  }
+  35% {
+    transform: none;
+    opacity: 0.25;
+  }
+  52% {
+    transform: none;
+    opacity: 0.25;
+  }
+  55% {
+    transform: translate(5px, 1px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: none;
+    opacity: 0.25;
+  }
+  72% {
+    transform: none;
+    opacity: 0.25;
+  }
+  75% {
+    transform: translate(2px, 6px);
+    opacity: 0.5;
+  }
+  80% {
+    transform: none;
+    opacity: 0.25;
+  }
+  100% {
+    transform: none;
+    opacity: 0.25;
+  }
+}
+
+.projects {
+  margin-bottom: 50vh;
+}
+
+.skillsboard {
+  margin-bottom: 50vh;
+}
+
+.blockquote {
+  position: relative;
+  margin-top: 50vh;
+  margin-bottom: 50vh;
+}
+
+.blockquote p {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 35px;
+  font-weight: 700px;
+  text-align: center;
+}
+
+.blockquote p::before {
+  content: "\201c";
+  font-size: 180px;
+}
+
+.blockquote::after {
+  content: "";
+  top: 20px;
+  left: 50%;
+  margin-left: -100px;
+  position: absolute;
+  border-bottom: 3px solid #bf0024;
+  height: 3px;
+  width: 200px;
+}
+
+.skillBoardTitles:hover {
+  animation: shake 3000ms ease-in-out infinite;
+}
+
+.skillBoardTitles:hover::after {
+  animation: shake 3000ms ease-in-out;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
