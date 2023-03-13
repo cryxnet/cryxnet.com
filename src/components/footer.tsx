@@ -91,7 +91,13 @@ export default function Footer() {
   return (
     <FooterWrapper>
       <Container maxWidth="lg">
-        <Grid container spacing={3} justify="center">
+        <Grid
+          container
+          spacing={10}
+          direction="row"
+          alignItems="center"
+          justifyContent="center"
+        >
           <Grid item xs={12} md={4}>
             <FooterCol>
               <FooterTitle>General</FooterTitle>

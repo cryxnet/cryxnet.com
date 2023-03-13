@@ -16,7 +16,11 @@ const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: 'rgb(219, 219, 219)',
 }));
 
-const skills = {
+interface Skills {
+  [key: string]: string[];
+}
+
+const skills: Skills = {
   programming: ['TypeScript', 'Java', 'Python', 'C/C++'],
   blockchain: [
     'Solidity',
@@ -67,7 +71,8 @@ export default function SkillsBoard() {
         alignItems="center"
         justifyContent="center"
       >
-        {Object.keys(skills).map((skill) => (
+        {Object.keys(skills).map((skill: string) => (
+          // eslint-disable-next-line react/jsx-key
           <Grid item sm={12} md={4} display="flex" justifyContent="center">
             <SkillCard
               skillName={skill}
