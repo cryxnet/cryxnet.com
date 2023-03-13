@@ -4,7 +4,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Collapse from '@mui/material/Collapse';
-import IconButton from '@mui/material/IconButton';
+import IconButton, { IconButtonProps } from '@mui/material/IconButton';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -12,7 +12,11 @@ import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const ExpandMore = styled((props) => {
+interface ExpandMoreProps extends IconButtonProps {
+  expand: boolean;
+}
+
+const ExpandMore = styled((props: ExpandMoreProps) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
 })(({ theme, expand }) => ({
@@ -32,7 +36,6 @@ const theme = createTheme({
 interface SkillCardProps {
   skillName: string;
   topics: string[];
-  height: number; // Define the expand property here
 }
 
 export default function SkillCard({ skillName, topics }: SkillCardProps) {
@@ -78,6 +81,7 @@ export default function SkillCard({ skillName, topics }: SkillCardProps) {
           <CardContent>
             <List>
               {topics.map((topic) => (
+                // eslint-disable-next-line react/jsx-key
                 <ListItem>
                   <ListItemText>{topic}</ListItemText>
                 </ListItem>

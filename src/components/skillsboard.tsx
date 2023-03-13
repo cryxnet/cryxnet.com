@@ -74,11 +74,7 @@ export default function SkillsBoard() {
         {Object.keys(skills).map((skill: string) => (
           // eslint-disable-next-line react/jsx-key
           <Grid item sm={12} md={4} display="flex" justifyContent="center">
-            <SkillCard
-              skillName={skill}
-              topics={skills[skill]}
-              height={cardHeight}
-            />
+            <SkillCard skillName={skill} topics={skills[skill]} />
           </Grid>
         ))}
       </Grid>
