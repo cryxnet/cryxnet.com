@@ -46,7 +46,6 @@ export default function CompanyCard({
         ':hover': {
           boxShadow: 20,
         },
-        boxShadow: 5,
         borderRadius: '10px',
         background: '#dbdbdb',
         boxShadow: '20px 20px 60px #bababa, -20px -20px 60px #fcfcfc',
@@ -65,7 +64,7 @@ export default function CompanyCard({
       <Box
         sx={{
           height: '200px',
-          margin: 15,
+          margin: 2,
           display: 'flex',
           alignItems: 'center',
           justifycontent: 'center',
