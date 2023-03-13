@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
 import { LineAxisOutlined } from '@mui/icons-material';
 import Typography from '@mui/material/Typography';
-import SkillCard from '../components/skillCard';
+import SkillCard from './skillCard';
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
