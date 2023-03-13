@@ -12,7 +12,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const ExpandMore = styled((props: any) => {
+const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
 })(({ theme, expand }) => ({
@@ -26,7 +26,6 @@ const ExpandMore = styled((props: any) => {
 const theme = createTheme({
   typography: {
     fontFamily: "'Ubuntu Condensed', sans-serif",
-    fontSize: parseInt('30vmin'),
   },
 });
 
@@ -61,7 +60,7 @@ export default function SkillCard({ skillName, topics }: SkillCardProps) {
             fontWeight: 'bolder',
           }}
         >
-          <Typography variant="h3" style={{ marginTop: 15 }}>
+          <Typography variant="h5" style={{ marginTop: 15 }}>
             {skillName}
           </Typography>
         </CardContent>
@@ -78,8 +77,7 @@ export default function SkillCard({ skillName, topics }: SkillCardProps) {
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
             <List>
-              {topics.map((topic: any) => (
-                // eslint-disable-next-line react/jsx-key
+              {topics.map((topic) => (
                 <ListItem>
                   <ListItemText>{topic}</ListItemText>
                 </ListItem>
