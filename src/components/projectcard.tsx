@@ -16,7 +16,7 @@ const theme = createTheme({
   },
 });
 
-export default function ProjectCard({ image, title, content, url }) {
+export default function ProjectCard({ image, title, content, url }: any) {
   return (
     <ThemeProvider theme={theme}>
       <Card
@@ -25,7 +25,6 @@ export default function ProjectCard({ image, title, content, url }) {
           ':hover': {
             boxShadow: 20,
           },
-          boxShadow: 5,
           borderRadius: '10px',
           background: '#dbdbdb',
           boxShadow: '20px 20px 60px #bababa, -20px -20px 60px #fcfcfc',
